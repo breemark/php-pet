@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'PixelForce';
+  src: url('fonts/PixelForce.ttf');
+}
+*{
+  font-family: 'PixelForce';
+}
+body{
+  background-color: #f4f4f4;
+}
+.container{
+  border-radius: 25px;
+  box-sizing: border-box;
+  width: 50%;
+  margin: auto;
+  height: 33em;
+  /* border: 3px dotted black; */
+}
+header{
+  margin-top: 3em;
+  height: 5em;
+  box-sizing: border-box;
+  border: 1px dotted black;
+}
+header h1{
+  text-align: center;
+}
+.virus{
+  padding: 1em;
+  float: left;
+  width: 60%;
+  position: relative;
+  height: 24.5em;
+  box-sizing: border-box;
+  border: 1px dotted black;
+}
+.virus .model{
+  margin: auto;
+  /* border: 1px dotted black; */
+  height: 90%;
+  position: relative;
+  width: 85%;
+}
+
+.model img{
+  width: 100%;
+  height: auto;
+}
+
+.info{
+  float: left;
+  width: 40%;
+  height: 24.5em;
+  border: 1px dotted black;
+  box-sizing: border-box;
+  padding: 1em;
+  position: relative;
+}
+.info .panel{
+  box-sizing: border-box;
+  padding: 1em;
+  margin: auto;
+  border: 1px dotted black;
+  bottom: 2em;
+  width: 70%;
+}
+.info .dialog{
+  box-sizing: border-box;
+  font-size: .8em;
+  
+   background-color: #000000;
+   color: #fbf236;
+  border-radius: 25px;
+  padding: .5em;
+  margin: auto;
+  text-align: center;
+  border: 1px dotted black;
+  height: 20%;
+  bottom: 1em;
+  width: 90%;
+
+}
